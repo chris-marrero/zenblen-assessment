@@ -1,0 +1,5 @@
+[workspace]
+members = ["calmram_client", "calmram_server"]
+
+[workspace.dependencies]
+calmram_lib = { path = "calmram_lib" }

@@ -1,0 +1,107 @@
+{
+    "menu": {
+        "bases": [
+            {
+                "name": "Shoyu",
+                "price": 10.00,
+                "image_url": "shoyu.png",
+                "id": 0
+            },
+            {
+                "name": "Miso",
+                "price": 10.00,
+                "image_url": "miso.png",
+                "id": 1
+            },
+            {
+                "name": "Shio",
+                "price": 10.00,
+                "image_url": "shio.png",
+                "id": 2
+            },
+            {
+                "name": "Tonkotsu",
+                "price": 11.00,
+                "image_url": "tonkotsu.png",
+                "id": 3
+            }
+        ],
+        "toppings": [
+            {
+                "name": "Chashu",
+                "price": 2.00,
+                "image_url": "chashu.png",
+                "id": 4
+            },
+            {
+                "name": "Egg",
+                "image_url": "egg.png",
+                "id": 5
+            },
+            {
+                "name": "Nori",
+                "image_url": "nori.png",
+                "id": 6
+            },
+            {
+                "name": "Scallions",
+                "image_url": "scallions.png",
+                "id": 7
+            },
+            {
+                "name": "Menma",
+                "image_url": "menma.png",
+                "id": 8
+            },
+            {
+                "name": "Bean Sprouts",
+                "image_url": "beansprouts.png",
+                "id": 9
+            },
+            {
+                "name": "Kikurage",
+                "image_url": "woodearmushrooms.png",
+                "id": 10
+            },
+            {
+                "name": "Kamaboko",
+                "image_url": "kamaboko.png",
+                "id": 11
+            }
+        ],
+        "spice_levels": [
+            {
+                "name": "Mild",
+                "level": 0,
+                "id": 12
+            },
+            {
+                "name": "Medium",
+                "level": 1,
+                "id": 13
+            },
+            {
+                "name": "Spicy",
+                "level": 2,
+                "id": 14
+            },
+            {
+                "name": "Extra Spicy",
+                "level": 3,
+                "id": 15
+            }
+        ]
+    },
+    "default_order": {
+        "base": 0,
+        "toppings": [
+            4,
+            5,
+            6,
+            7,
+            9,
+            11
+        ],
+        "spice_level": 1
+    }
+}
